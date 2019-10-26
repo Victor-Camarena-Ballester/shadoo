@@ -114,7 +114,7 @@ body {
 }
 
 .services .services-cards .description h3 {
-  font-size: 70px;
+  font-size: 62px;
 }
 
 .services .services-cards .description p {
@@ -178,7 +178,7 @@ body {
   font-size: 30px;
 }
 .testimonials .testimonial-cards .text .explan {
-  font-size: 30px;
+  font-size: 25px;
   /* width: 50%; */
   padding: 0px 30%;
 }
