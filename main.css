@@ -1,0 +1,134 @@
+.nav {
+  background-color: aqua;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 10px;
+}
+.header > div {
+  width: 50%;
+}
+.header .image {
+  width: 300px;
+  height: 300px;
+  background-color: coral;
+}
+.header .slider-wrapper {
+  text-align: center;
+}
+
+.business {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.business .logo-business {
+  width: 20%;
+  background-color: tomato;
+  height: 30px;
+}
+
+.services {
+  padding: 10px;
+}
+
+.services .services-cards {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.services .services-cards .logo {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.footer {
+  height: 60px;
+  background-color: blueviolet;
+}
+
+.services .services-cards .description {
+  widows: 30px;
+  height: 30px;
+  padding: 40px;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+}
+.testimonials .testimonial-cards .image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.testimonials .testimonial-cards .image {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+.testimonials .testimonial-cards .text {
+  text-align: center;
+}
+.testimonials > div {
+  width: 20%;
+}
+.slider {
+  width: 95%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
